@@ -922,6 +922,14 @@ input:checked ~ .dot .active{
   padding-left: 2.5rem;
   padding-right: 2.5rem;
 }
+.py-12{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.px-8{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
 .pr-4{
   padding-right: 1rem;
 }
@@ -1021,6 +1029,9 @@ input:checked ~ .dot .active{
 }
 .leading-normal{
   line-height: 1.5;
+}
+.leading-tight{
+  line-height: 1.25;
 }
 .tracking-wider{
   letter-spacing: 0.05em;
@@ -1450,6 +1461,10 @@ input#checkboxLabelFive:checked ~ .box{
     margin-right: 1rem;
   }
 
+  .sm\:mb-8{
+    margin-bottom: 2rem;
+  }
+
   .sm\:flex{
     display: flex;
   }
@@ -1514,9 +1529,17 @@ input#checkboxLabelFive:checked ~ .box{
     font-size: 2.25rem;
     line-height: 2.5rem;
   }
+
+  .sm\:text-\[38px\]{
+    font-size: 38px;
+  }
 }
 
 @media (min-width: 720px){
+
+  .md\:p-\[70px\]{
+    padding: 70px;
+  }
 
   .md\:px-9{
     padding-left: 2.25rem;
@@ -1552,6 +1575,10 @@ input#checkboxLabelFive:checked ~ .box{
 
   .lg\:mt-0{
     margin-top: 0px;
+  }
+
+  .lg\:mb-0{
+    margin-bottom: 0px;
   }
 
   .lg\:block{
@@ -1608,6 +1635,10 @@ input#checkboxLabelFive:checked ~ .box{
 
   .lg\:items-center{
     align-items: center;
+  }
+
+  .lg\:justify-end{
+    justify-content: flex-end;
   }
 
   .lg\:px-0{

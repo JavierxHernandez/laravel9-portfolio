@@ -20,7 +20,7 @@
                         My name is Javier 👨🏻‍💻<br>
                     </h1>
                     <p class="text-base mb-8 max-w-[520px]">
-                        I'm a systems engineer and web developer. I'm from Venezuela, I like to be aware of new
+                        I'm from Venezuela, I like to be aware of new
                         technologies, programming languages and software solutions.
                     </p>
                     <ul class="flex flex-wrap items-center">

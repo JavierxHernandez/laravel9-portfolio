@@ -535,6 +535,12 @@ input:checked ~ .dot .active{
 .-bottom-8{
   bottom: -2rem;
 }
+.-right-7{
+  right: -1.75rem;
+}
+.-bottom-7{
+  bottom: -1.75rem;
+}
 .z-50{
   z-index: 50;
 }
@@ -558,6 +564,14 @@ input:checked ~ .dot .active{
 .my-\[6px\]{
   margin-top: 6px;
   margin-bottom: 6px;
+}
+.-mx-3{
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+}
+.my-4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 .ml-1{
   margin-left: 0.25rem;
@@ -624,6 +638,12 @@ input:checked ~ .dot .active{
 }
 .mb-4{
   margin-bottom: 1rem;
+}
+.mt-10{
+  margin-top: 2.5rem;
+}
+.mb-12{
+  margin-bottom: 3rem;
 }
 .block{
   display: block;
@@ -719,6 +739,9 @@ input:checked ~ .dot .active{
   --tw-translate-y: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
+.transform{
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
 .cursor-default{
   cursor: default;
 }
@@ -758,6 +781,9 @@ input:checked ~ .dot .active{
 .rounded{
   border-radius: 0.25rem;
 }
+.rounded-2xl{
+  border-radius: 1rem;
+}
 .rounded-l-md{
   border-top-left-radius: 0.375rem;
   border-bottom-left-radius: 0.375rem;
@@ -774,6 +800,9 @@ input:checked ~ .dot .active{
 }
 .border-r{
   border-right-width: 1px;
+}
+.border-l-4{
+  border-left-width: 4px;
 }
 .border-gray-200{
   --tw-border-opacity: 1;
@@ -806,6 +835,10 @@ input:checked ~ .dot .active{
 .border-primary{
   --tw-border-opacity: 1;
   border-color: rgb(48 86 211 / var(--tw-border-opacity));
+}
+.border-amber-500{
+  --tw-border-opacity: 1;
+  border-color: rgb(245 158 11 / var(--tw-border-opacity));
 }
 .bg-white{
   --tw-bg-opacity: 1;
@@ -885,6 +918,10 @@ input:checked ~ .dot .active{
   padding-left: 1.75rem;
   padding-right: 1.75rem;
 }
+.px-10{
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
 .pr-4{
   padding-right: 1rem;
 }
@@ -915,8 +952,14 @@ input:checked ~ .dot .active{
 .pt-11{
   padding-top: 2.75rem;
 }
+.pb-12{
+  padding-bottom: 3rem;
+}
 .text-center{
   text-align: center;
+}
+.text-justify{
+  text-align: justify;
 }
 .text-xl{
   font-size: 1.25rem;
@@ -942,6 +985,10 @@ input:checked ~ .dot .active{
   font-size: 0.75rem;
   line-height: 1rem;
 }
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
 .font-bold{
   font-weight: 700;
 }
@@ -956,6 +1003,9 @@ input:checked ~ .dot .active{
 }
 .uppercase{
   text-transform: uppercase;
+}
+.italic{
+  font-style: italic;
 }
 .leading-7{
   line-height: 1.75rem;
@@ -1034,6 +1084,10 @@ input:checked ~ .dot .active{
 .text-green-600{
   --tw-text-opacity: 1;
   color: rgb(22 163 74 / var(--tw-text-opacity));
+}
+.text-amber-500{
+  --tw-text-opacity: 1;
+  color: rgb(245 158 11 / var(--tw-text-opacity));
 }
 .underline{
   -webkit-text-decoration-line: underline;
@@ -1374,6 +1428,11 @@ input#checkboxLabelFive:checked ~ .box{
     color: rgb(229 231 235 / var(--tw-text-opacity));
   }
 
+  .dark\:text-gray-400{
+    --tw-text-opacity: 1;
+    color: rgb(156 163 175 / var(--tw-text-opacity));
+  }
+
   .hover\:dark\:border-primary:hover{
     --tw-border-opacity: 1;
     border-color: rgb(48 86 211 / var(--tw-border-opacity));
@@ -1381,6 +1440,11 @@ input#checkboxLabelFive:checked ~ .box{
 }
 
 @media (min-width: 540px){
+
+  .sm\:-mx-4{
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
 
   .sm\:mr-4{
     margin-right: 1rem;
@@ -1428,12 +1492,27 @@ input#checkboxLabelFive:checked ~ .box{
     padding-right: 2.5rem;
   }
 
+  .sm\:px-4{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .sm\:py-4{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
   .sm\:pt-0{
     padding-top: 0px;
   }
 
   .sm\:text-\[42px\]{
     font-size: 42px;
+  }
+
+  .sm\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
 
@@ -1469,6 +1548,10 @@ input#checkboxLabelFive:checked ~ .box{
 
   .lg\:ml-auto{
     margin-left: auto;
+  }
+
+  .lg\:mt-0{
+    margin-top: 0px;
   }
 
   .lg\:block{
@@ -1515,6 +1598,10 @@ input#checkboxLabelFive:checked ~ .box{
     width: 50%;
   }
 
+  .lg\:w-1\/2{
+    width: 50%;
+  }
+
   .lg\:max-w-full{
     max-width: 100%;
   }
@@ -1558,6 +1645,10 @@ input#checkboxLabelFive:checked ~ .box{
     padding-top: 0px;
   }
 
+  .lg\:pb-\[90px\]{
+    padding-bottom: 90px;
+  }
+
   .lg\:text-right{
     text-align: right;
   }
@@ -1581,6 +1672,14 @@ input#checkboxLabelFive:checked ~ .box{
 
   .xl\:mr-4{
     margin-right: 1rem;
+  }
+
+  .xl\:w-1\/2{
+    width: 50%;
+  }
+
+  .xl\:w-5\/12{
+    width: 41.666667%;
   }
 
   .xl\:px-10{

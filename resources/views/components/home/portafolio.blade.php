@@ -17,7 +17,7 @@
             My Recent Projects
           </h2>
           <p class="text-base text-body-color">
-            You learn most by building projects. Go ahead and build something right now.
+            You learn most by building projects.<br>Go ahead and build something right now.
           </p>
         </div>
       </div>

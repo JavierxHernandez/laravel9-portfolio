@@ -7,10 +7,10 @@
             Check my information
         </h2>
     </x-slot:title>
-    <x-button-link href="#" variant="dark" class="mr-3" target="_blank">
+    <x-button-link href="https://github.com/JavierxHernandez" variant="dark" class="mr-3 w-full mb-3 text-center lg:w-auto" target="_blank">
         Check my GitHub
     </x-button-link>
-    <x-button-link href="#" variant="dark" class="mr-3" target="_blank">
+    <x-button-link href="https://www.linkedin.com/in/javierxhernandez/" variant="dark" class="mr-3 w-full mb-3 text-center lg:w-auto" target="_blank">
         Check my Linkedin
     </x-button-link>
 </x-call-to-action>

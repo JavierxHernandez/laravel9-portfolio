@@ -20,19 +20,19 @@ class Portafolio extends Component
             [
                 'category' => ['Laravel', 'Alpine.js', 'Tailwindcss', 'PHP', 'JavaScript'],
                 'title' => 'Portfolio with Laravel + Alpine.js + TailWindCss',
-                'image' => url('/img/me1.png'),
+                'image' => url('/img/p1.png'),
                 'github' => 'https://github.com/JavierxHernandez/laravel9-portfolio',
             ],
             [
                 'category' => ['Yii2', 'PHP', 'JavaScript'],
                 'title' => 'E-commerce site made with Yii2 Framework',
-                'image' => url('/img/me1.png'),
+                'image' => url('/img/p2.png'),
                 'github' => 'https://github.com/JavierxHernandez/yii2-ecommerce-website',
             ],
             [
                 'category' => ['Yii2', 'PHP', 'JavaScript'],
                 'title' => 'Youtube clone site made with Yii2 Framework',
-                'image' => url('/img/me1.png'),
+                'image' => url('/img/p3.png'),
                 'github' => 'https://github.com/JavierxHernandez/yii2-youtube-clone-website',
             ],
         ];

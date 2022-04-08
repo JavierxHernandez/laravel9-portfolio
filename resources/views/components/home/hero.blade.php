@@ -52,7 +52,7 @@
             <div class="w-full lg:w-6/12 px-4">
                 <div class="lg:text-right lg:ml-auto">
                     <div class="relative inline-block z-10 pt-11 lg:pt-0">
-                        <img src="../img/me1.png" alt="hero" class="max-w-full lg:ml-auto" />
+                        <img src="{{ url('/img/me1.png') }}" alt="hero" class="max-w-full lg:ml-auto" />
                         <span class="absolute -left-8 -bottom-8 z-[-1]">
                             <svg width="93" height="93" viewBox="0 0 93 93" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">

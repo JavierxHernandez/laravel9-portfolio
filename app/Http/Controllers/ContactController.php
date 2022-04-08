@@ -18,6 +18,6 @@ class ContactController extends Controller
 
        Mail::to('javierxhernandezx@gmail.com')
        ->send(new ContactMail($validated['name'], $validated['email'], $validated['message']));
-       return ['success' => true];
+       return $request->all();
     }
 }
